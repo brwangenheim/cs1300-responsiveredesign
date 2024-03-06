@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Kohinoor Gujarati";
   src: 
-    /* Path to the font files */ url("Assets/kohinoor-font-family/Bold.otf")
+    /* Path to the font files */ url("Assets/kohinoor-bold.otf")
     format("opentype");
   font-weight: normal;
   font-style: normal;
@@ -334,6 +334,7 @@ h3 {
 .image-wrapper:hover img,
 .image-wrapper:hover .section3-text {
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .image-wrapper img {
