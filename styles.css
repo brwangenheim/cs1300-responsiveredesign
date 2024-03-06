@@ -53,6 +53,7 @@ h3 {
   display: flex;
   align-items: center;
   margin-right: 0px;
+  font-size: x-large;
 }
 
 .menu-links a {
@@ -73,6 +74,7 @@ h3 {
   text-decoration: none;
   border-radius: 5px;
   margin-right: 40px;
+  font-size: x-large;
 }
 
 .order-link:hover {
