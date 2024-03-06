@@ -17,7 +17,7 @@
 
 body {
   margin: 0;
-  font-family: "Kohinoor Gujarati", sans-serif;
+  font-family: "Kohinoor-Gujarati", sans-serif;
   font-weight: 600;
   font-style: normal;
   background-color: #f7f2ec;
@@ -57,7 +57,7 @@ h3 {
 
 .menu-links a {
   color: black;
-  font-family: "Kohinoor Gujarati";
+  font-family: "Kohinoor-Gujarati";
   text-decoration: none;
   padding: 10px 15px;
   border-bottom: 2px solid transparent;
@@ -117,7 +117,7 @@ h3 {
 
 .menu-links a.order-link {
   background-color: black;
-  font-family: "Kohinoor Gujarati";
+  font-family: "Kohinoor-Gujarati";
   color: white;
   border-radius: 5px;
   padding: 10px 15px;
@@ -156,7 +156,7 @@ h3 {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Kohinoor Gujarati";
+  font-family: "Kohinoor-Gujarati";
   text-align: center;
   color: white;
   font-size: 72px;
@@ -379,5 +379,5 @@ h3 {
   color: #333;
   font-size: 14px;
   white-space: nowrap;
-  font-family: "Kaisei Decol";
+  font-family: "Kaisei-Decol";
 }
