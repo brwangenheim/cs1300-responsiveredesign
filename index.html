@@ -1,21 +1,73 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML/CSS Studio</title>
+    <title>Bagel Gourmet</title>
     <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/vwx5eix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
   </head>
 
   <!-- page content goes into <body> -->
   <body>
-    <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
+    <div class="menu-bar">
+      <div class="menu-links">
+        <a href="#" class="active" aria-label="Home">HOME</a>
+        <a href="#" aria-label="About">ABOUT</a>
+        <a href="#" aria-label="Menu">MENU</a>
+        <a href="#" aria-label="Locations">LOCATIONS</a>
+        <a href="#" aria-label="Contact">CONTACT</a>
+      </div>
+      <a href="#" class="order-link" aria-label="Order">ORDER</a>
+      <button class="hamburger-menu" aria-label="Navigation Menu">&#9776;</button>
     </div>
-    <hr/>
-    <div id="staffGallery">
+    <div class="content">
+      <div class="title-header">
+          <img src="Assets/Bagel.jpg" alt="Bagel photo">
+          <div class="image-text">
+              <h1>BAGEL GOURMET </h1>
+          </div>
+      </div>
+      <div class="intro-section">
+        <div class="image-container">
+            <img src="Assets/bagel1.jpg" alt="Three Bagels">
+            <button class="order-button image-button" aria-label="Click here to order now!">Click here to order now!</button>
+        </div>
+        <div class="content-container">
+            <h2>The Best Bagels in Rhode Island!</h2>
+            <p>Welcome to Bagel Gourmet Cafe! We've been proudly serving the Providence community with delicious food and freshly baked bagels for over 26 years. Whether you're craving a classic plain bagel or a specialty sandwich, we're dedicated to satisfying your taste buds with quality ingredients and exceptional service.</p>
+        <button class="order-button text-button" aria-label="Click here to order now!">Click here to order now!</button>
+      </div>
     </div>
-  </body>
-
+  <div class="image-section">
+    <div class="image-wrapper">
+        <img src="Assets/bagel2.jpg" alt="Everything bagel on display">
+        <div class="section3-text">
+          <h3>Our Story </h3>
+        </div>
+    </div>
+    <div class="image-wrapper">
+        <img src="Assets/bagel3.jpg" alt="Bagel breakfast sandwich">
+        <div class="section3-text">
+          <h3>Menu</h3>
+        </div>
+    </div>
+    <div class="image-wrapper">
+        <img src="Assets/restaurant.jpg" alt="Bagel Gourmet Storefront">
+        <div class="section3-text">
+          <h3>Locations </h3>
+        </div>
+    </div>
+</div>
+<div class="footer">
+  <div class="footer-text">
+      <span>Bagel Gourmet Café | </span>
+      <span>bagel_gourmet_pvd@gmail.com | </span>
+      <span>401-453-5560</span>
+  </div>
+</div>
+</div>
+</div>
 </html>
