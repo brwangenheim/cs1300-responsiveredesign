@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Kohinoor Gujarati";
   src: 
-    /* Path to the font files */ url("Assets/kohinoor-bold.otf")
+    /* Path to the font files */ url("Assets/Kohinoor-bold.otf")
     format("opentype");
   font-weight: normal;
   font-style: normal;
@@ -17,7 +17,7 @@
 
 body {
   margin: 0;
-  font-family: "kohinoor-gujarati", sans-serif;
+  font-family: "Kohinoor Gujarati", sans-serif;
   font-weight: 600;
   font-style: normal;
   background-color: #f7f2ec;
@@ -57,7 +57,7 @@ h3 {
 
 .menu-links a {
   color: black;
-  font-family: "kohinoor-gujarati";
+  font-family: "Kohinoor Gujarati";
   text-decoration: none;
   padding: 10px 15px;
   border-bottom: 2px solid transparent;
@@ -67,7 +67,7 @@ h3 {
 
 .order-link {
   background-color: black;
-  font-family: "kohinoor-gujarati";
+  font-family: "Kohinoor Gujarati";
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -117,7 +117,7 @@ h3 {
 
 .menu-links a.order-link {
   background-color: black;
-  font-family: "kohinoor-gujarati";
+  font-family: "Kohinoor Gujarati";
   color: white;
   border-radius: 5px;
   padding: 10px 15px;
@@ -275,12 +275,12 @@ h3 {
 
   .intro-section img,
   .order-button {
-    max-width: 60%; /* Set the width of the image to 60% of the screen width */
-    height: auto; /* Allow the height to adjust automatically to maintain aspect ratio */
-    max-height: 400px; /* Set the maximum height of the image */
-    min-height: 50px; /* Set the minimum height of the image */
-    display: block; /* Ensure the img element is a block-level element */
-    margin: 10px auto; /* Center the image horizontally */
+    max-width: 60%; 
+    height: auto;
+    max-height: 400px;
+    min-height: 50px;
+    display: block;
+    margin: 10px auto;
     object-fit: cover;
   }
 
